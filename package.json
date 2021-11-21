@@ -1,6 +1,6 @@
 {
   "name": "lonewolf-protocol",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The LoneWolf Protocol powers the LoneWolf Messenger and everything else that uses it.",
   "main": "index.js",
   "author": "Connor Davis <cnnr.dvs03@gmail.com>",
