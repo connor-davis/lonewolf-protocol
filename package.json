@@ -1,0 +1,17 @@
+{
+  "name": "lonewolf-protocol",
+  "version": "0.0.2",
+  "description": "The LoneWolf Protocol powers the LoneWolf Messenger and everything else that uses it.",
+  "main": "index.js",
+  "author": "Connor Davis <cnnr.dvs03@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "gun": "^0.2020.1235",
+    "hyperswarm-web": "^2.1.1",
+    "rxjs": "^7.4.0",
+    "sodium-universal": "^3.0.4",
+    "uuid": "^8.3.2"
+  }
+}
