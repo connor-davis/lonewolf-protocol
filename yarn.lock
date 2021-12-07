@@ -352,6 +352,11 @@ guard-timeout@^2.0.0:
   resolved "https://registry.yarnpkg.com/guard-timeout/-/guard-timeout-2.0.0.tgz#7f8f1f6d09bdeb6d0fee4cbd743d593c14d7d78a"
   integrity sha512-35geHv72oal0cRUE5t1tZ5KHm3OVPXzFtiMG8AnRPV5FkkEf84RUpeQ0BCeCZunfSLGATW5ZVyALhJKgM7I/6A==
 
+gun-avatar@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/gun-avatar/-/gun-avatar-1.3.5.tgz#eea25ee522a6f94cc078c912127348f4330aca67"
+  integrity sha512-NsiDgUDyGGY+tUCZGVRY5Ezuv9gOChN7VrAf/oYaSw3NzFSJdwLMLXUYpsPU1urQrFHUrXLTOF3VedBH2tK0Og==
+
 gun@^0.2020.1235:
   version "0.2020.1235"
   resolved "https://registry.yarnpkg.com/gun/-/gun-0.2020.1235.tgz#5b6cdfb383b8e7d5e430f12af8cc59621d0b6191"
@@ -853,6 +858,13 @@ siphash24@^1.0.1:
   integrity sha512-51yTA4ZqBY0tHTsBVGy3KAmMI7ArtwSOSmfFwJnZHFL+K76RMzZLx4m59HY5HSByjGHF3q+Fmcl8e5bMF160iQ==
   dependencies:
     nanoassert "^2.0.0"
+
+slugid@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/slugid/-/slugid-3.0.0.tgz#57cb692641a20feb4a1d774b2ad11594c9aa6125"
+  integrity sha512-MIir9SJS6BQFjFg8DHGMgPkDg21huT0+kYHiS6NkkWZXHSEdgIECo3nUVEG3GDkmecBTy+zRs6pCvPhpk4bKcg==
+  dependencies:
+    uuid "^8.3.2"
 
 socket-signal-websocket@^9.1.0:
   version "9.2.4"
