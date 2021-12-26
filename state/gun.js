@@ -1,9 +1,9 @@
 import Gun from "gun/gun";
 import "gun/sea";
-import "gun/radix";
-import "gun/radisk";
-import "gun/store";
-import "gun/rindexed";
+import "gun/lib/radix";
+import "gun/lib/radisk";
+import "gun/lib/store";
+import "gun/lib/rindexed";
 
 let DEV_MODE = import.meta.env.DEV;
 
