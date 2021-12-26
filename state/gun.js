@@ -1,5 +1,9 @@
 import Gun from "gun/gun";
 import "gun/sea";
+import "gun/radix";
+import "gun/radisk";
+import "gun/store";
+import "gun/rindexed";
 
 let DEV_MODE = import.meta.env.DEV;
 
@@ -7,9 +11,11 @@ let gun = new Gun({
   peers: [
     DEV_MODE
       ? "http://localhost:8765/gun"
-      : "https://lonewolf-relay.herokuapp.com/gun",
+      : "https://lone-wolf.software/gun",
   ],
   axe: false,
+  localStorage: false,
+  radisk: true,
 });
 
 let user = gun.user().recall({ sessionStorage: true });
